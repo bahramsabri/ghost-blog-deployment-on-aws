@@ -16,7 +16,7 @@ This module will allow you to deploy a single instance behind an Auto Scaling gr
 
 ## Usage
 
-* Export your AWS credentials using the CLI or tools like Awsume
+* Export your AWS credentials using the CLI or tools like Awsume or aws-vault
 * Provide your remote state information in backend.tf -- feel free to remove s3 if you're not using it as you default backend
 * Update all the default values in variables.tf 
 * Then, run the below:

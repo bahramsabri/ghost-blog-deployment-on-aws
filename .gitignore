@@ -1,0 +1,23 @@
+# VIM and Emacs tmp files
+*~
+**/*~
+
+# If instances are used, then exclude the SSH keys that are used
+**/ssh/*pem
+
+# Custom files per platform - use "terraform init"
+**/.terraform/plugins/*
+**/.terraform/plugins/linux*
+~/.terraform/*
+**/terraform/.terraform/*
+
+# Temporary files using "terraform <option>"
+**/.terraform.tfstate.lock.info
+
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+*.DS_Store*
+**/.terraform.lock.hcl
+/.idea/
